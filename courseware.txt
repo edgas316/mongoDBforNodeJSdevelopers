@@ -1,0 +1,370 @@
+WEEK 1: INTRODUCTION
+Welcome to M101JS 
+Quiz
+
+What is MongoDB? 
+
+Overview of Building an App with MongoDB 
+
+Installing MongoDB (mac) 
+
+Installing MongoDB (windows) 
+
+JSON 
+Quiz
+
+BSON 
+Quiz
+
+Intro to Creating and Reading Documents 
+
+Installing Node.js 
+
+Hello World on Node.js 
+
+Introduction to npm 
+
+Intro to the Node.js Driver 
+
+Hello World using Express 
+
+Hello World using Templates 
+
+All Together Now 
+
+Express: Handling GET Requests 
+
+Express: Handling POST Requests 
+
+Intro to the Course Project 
+
+Homework 1.1 
+Homework due Jan 13 00:00 UTC 2016
+
+Homework 1.2 
+Homework due Jan 13 00:00 UTC 2016
+
+Homework 1.3 
+Homework due Jan 13 00:00 UTC 2016
+
+Challenge Problem: Create Movie Entries 
+
+WEEK 2: CRUD
+Creating Documents 
+
+The _id Field 
+
+Reading Documents 
+
+Multiple selectors in a find() command 
+Homework due Jan 20 00:00 UTC 2016
+
+Arrays with nested documents 
+Homework due Jan 20 00:00 UTC 2016
+
+Simple projection 
+Homework due Jan 20 00:00 UTC 2016
+
+Matching a specific array element 
+Homework due Jan 20 00:00 UTC 2016
+
+Comparison Operators 
+
+Element Operators 
+
+Logical Operators 
+
+Regex Operator 
+
+Array Operators 
+
+Equality queries on arrays 
+Homework due Jan 20 00:00 UTC 2016
+
+Array operators 
+Homework due Jan 20 00:00 UTC 2016
+
+Challenge Exercise: Arrays with nested documents 
+
+Updating Documents 
+
+Updating scalar fields 
+Homework due Jan 20 00:00 UTC 2016
+
+Updating based on multiple criteria 
+Quiz
+
+WEEK 3: THE NODE.JS DRIVER
+find() and Cursors in the Node.js Driver 
+
+Projection in the Node.js Driver 
+Quiz
+
+The CrunchBase Dataset 
+
+Query Operators in the Node.js Driver 
+
+$regex in the Node.js Driver
+
+Dot Notation in the Node.js Driver 
+
+Dot Notation on Embedded Documents in Arrays 
+
+Sort, Skip, and Limit in the Node.js Driver 
+Quiz
+
+insertOne() and insertMany() in the Node.js Driver 
+
+deleteOne() and deleteMany() in the Node.js Driver 
+
+Homework: 3.1 
+Homework due Jan 27 00:00 UTC 2016
+
+Homework: 3.2 
+Homework due Jan 27 00:00 UTC 2016
+
+Homework: 3.3 
+Homework due Jan 27 00:00 UTC 2016
+
+Homework: 3.4 
+Homework due Jan 27 00:00 UTC 2016
+
+WEEK 4: SCHEMA DESIGN
+MongoDB Schema Design 
+Quiz
+
+Relational Normalization 
+
+Modeling a Blog in Documents 
+Quiz
+
+Living Without Constraints 
+Quiz
+
+Living Without Transactions
+Quiz
+
+One to One Relations 
+Quiz
+
+One to Many Relations 
+Quiz
+
+Many to Many Relations 
+
+Multikeys 
+
+Benefits of Embedding 
+
+Trees 
+Quiz
+
+When to Denormalize 
+
+Homework: 4.1 
+Homework due Feb 03 00:00 UTC 2016
+
+Homework: 4.2 
+Homework due Feb 03 00:00 UTC 2016
+
+Homework: 4.3 
+Homework due Feb 03 00:00 UTC 2016
+
+WEEK 5: INDEXES AND PERFORMANCE
+Introduction to Week 4 
+
+Storage Engines: Introduction 
+Quiz
+
+Storage Engines: MMAPv1 
+Quiz
+
+Storage Engines: WiredTiger 
+Quiz
+
+Indexes 
+Quiz
+
+Creating Indexes 
+Quiz
+
+Discovering (and Deleting) Indexes 
+Quiz
+
+Multikey Indexes 
+Quiz
+
+Dot Notation and Multikey 
+Quiz
+
+Index Creation Option, Unique 
+Quiz
+
+Index Creation, Sparse 
+Quiz
+
+Index Creation, Background
+Quiz
+
+Using Explain 
+Quiz
+
+Explain: Verbosity 
+Quiz
+
+Covered Queries 
+Quiz
+
+When is an Index Used? 
+Quiz
+
+How Large is Your Index? 
+Quiz
+
+Number of Index Entries 
+Quiz
+
+Geospatial Indexes 
+Quiz
+
+Geospatial Spherical 
+Quiz
+
+Text Indexes 
+Quiz
+
+Efficiency of Index Use 
+Quiz
+
+Efficiency of Index Use Example 
+Quiz
+
+Logging Slow Queries 
+
+Profiling 
+Quiz
+
+Mongotop 
+
+Mongostat 
+Quiz
+
+Sharding Overview 
+
+Homework 5.1 
+Homework due Feb 10 00:00 UTC 2016
+
+Homework 5.2 
+Homework due Feb 10 00:00 UTC 2016
+
+Homework 5.3 
+Homework due Feb 10 00:00 UTC 2016
+
+WEEK 6: THE AGGREGATION FRAMEWORK
+Introduction to the Aggregation Framework 
+Quiz
+
+Familiar Aggregation Operations 
+Quiz
+
+Expressions Overview 
+
+Reshaping Documents in $project Stages 
+Quiz
+
+$unwind 
+
+Array Expressions 
+
+Accumulators 
+
+Using Accumulators in $project Stages 
+
+Introduction to $group 
+
+_id in $group Stages 
+
+$group vs. $project 
+
+Homework: 6.1 
+Homework due Feb 17 00:00 UTC 2016
+
+Homework: 6.2 
+Homework due Feb 17 00:00 UTC 2016
+
+Homework: 6.3 
+Homework due Feb 17 00:00 UTC 2016
+
+WEEK 7: APPLICATION ENGINEERING
+Introduction to Week 6 
+
+Write Concern 
+Quiz
+
+Network Errors 
+Quiz
+
+Introduction to Replication 
+Quiz
+
+Replica Set Elections 
+Quiz
+
+Write Consistency 
+Quiz
+
+Creating a Replica Set 
+Quiz
+
+Replica Set Internals 
+Quiz
+
+Failover and Rollback 
+Quiz
+
+Connecting to a Replica Set from the Node.js Driver 
+Quiz
+
+Failover in the Node.js Driver 
+Quiz
+
+Write Concern Revisited 
+Quiz
+
+Read Preferences 
+Quiz
+
+Review of Implications of Replication 
+Quiz
+
+Introduction to Sharding 
+Quiz
+
+Building a Sharded Environment 
+Quiz
+
+Implications of Sharding 
+Quiz
+
+Sharding + Replication 
+Quiz
+
+Choosing a Shard Key 
+Quiz
+
+Homework: 7.1 
+Homework due Feb 24 00:00 UTC 2016
+
+Homework 7.2 
+Homework due Feb 24 00:00 UTC 2016
+
+Homework 7.3 
+Homework due Feb 24 00:00 UTC 2016
+
+Homework 7.4 
+Homework due Feb 24 00:00 UTC 2016
+
+Homework 7.5 
+Homework due Feb 24 00:00 UTC 2016
+
+FINAL PROJECT (EXAM)
