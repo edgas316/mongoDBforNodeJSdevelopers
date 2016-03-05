@@ -5,4 +5,5 @@
 "\x16\x00\x00\x00\x02hello\x00 
 \x06\x00\x00\x00world\x00\x00"
 
+// BSON plays the role of a canonocal representation of docunemts shared across all drivets and tools.
 
